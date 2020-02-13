@@ -1,0 +1,310 @@
+body{
+
+    background-color: black;
+    margin: 0;
+}
+
+#head{   
+   height: 600px;
+   margin-top: 0;
+   
+}
+
+
+
+#head #moto{
+
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: chiller;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+
+.text-box{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+hr.divider {
+    max-width: 3.25rem;
+    border-width: .2rem;
+    border-color: #f4623a;
+}
+
+
+
+
+#head #com{
+
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+}
+#head #com #clip .bg{
+
+
+    width: 100%;
+    height: 600px;
+    flex: 0 0 auto;
+    white-space: nowrap;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#head #com #clip{
+
+    
+    transition: transform 1s ease-in;
+    display: flex ; 
+    flex-wrap: nowrap ;
+}
+
+
+
+
+
+
+.navbar{
+    
+    padding: 0 !important;
+
+
+}
+.navbar  img{
+
+    border-radius: 50%;
+}
+.navbar #title{
+
+    color: tomato !important;
+    margin-left: 20px;
+}
+
+.navbar .navbar-collapse .navbar-nav li a {
+
+    color: tomato;
+    width: 100%;
+
+    border-bottom: 2px tomato solid;
+}
+.navbar .navbar-collapse .navbar-nav li .navbar-form input{
+
+    color: tomato;
+   
+    border: transparent solid !important;
+
+    border: 2px tomato solid !important;
+
+    border-radius: 8%;
+
+
+    
+    /* background-color: transparent; */
+
+}
+
+.navbar .navbar-collapse .navbar-nav li .btn:hover{
+   
+    /* border: 2px tomato solid !important; */
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+}
+.navbar .navbar-collapse .navbar-nav li .btn:active{
+   
+    border-bottom: 2px tomato solid !important;
+}
+.navbar .navbar-collapse .navbar-nav li .btn:visited{
+   
+    border-left: 2px red solid !important;
+}
+/* .navbar-light .navbar-toggler-icon{
+    background-image: url('../pstor/IMG/Noun_Project_20Icon_5px_grid-13-512.png') !important;
+} */
+
+
+
+
+.navbar .navbar-collapse .navbar-nav li .container .row .col-12 .list-group {
+
+    position: absolute;
+    width: 300px;
+    
+}
+    
+.navbar .navbar-collapse .navbar-nav li .container .row .col-12 .w {
+    
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 0 0 auto;
+        white-space: nowrap;
+        margin: 2%;
+        
+        
+}
+    
+.navbar .navbar-collapse .navbar-nav li .container .row .col-12 .list-group .w img{
+    
+        width: 70px;
+        height: 70px;
+        border-radius: 0%;
+        
+}
+.navbar .navbar-collapse .navbar-nav li .container .row .col-12 .list-group .w a{
+    
+        background-color: yellow !important;
+        color: black !important;
+        width: 100px;
+        text-align: center;
+
+    
+}
+
+
+
+
+
+
+#portfolio .container-fluid .row .COM{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+#portfolio .container-fluid .row .COM #com{
+
+    width: 100%;
+    height: 350px;
+    overflow-x: hidden;
+    z-index: -1;
+}
+#portfolio .container-fluid .row .COM #com #clip{
+
+    
+    
+    display: flex ; 
+    flex-wrap: nowrap ;
+
+    position: relative;
+
+    right: 0px;
+    transition: right 1s ease-in;
+}
+
+#portfolio .container-fluid .row .COM #com #clip .bg{
+
+
+    width: 300px !important;
+    height: 350px !important;
+
+   
+    
+    flex: 0 0 auto;
+    white-space: nowrap;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    transition: right 2s ease-in;
+
+}
+
+#portfolio .container-fluid .row .COM #com  #pre{
+
+
+    position: absolute;
+    left: 1%;
+    top: 0;
+
+    height: 350px;
+
+    z-index: 1;
+
+
+    opacity: 0.8;
+}
+#portfolio .container-fluid .row .COM #com  #next{
+
+
+    position: absolute;
+    right: 1%;
+    top: 0;
+
+    height: 350px;
+
+    z-index: 1;
+
+    opacity: 0.8;
+
+}
+
+
+
+
+#filter .container-fluid .row{
+
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    /* height: 200; */
+ } 
+ #filter .container-fluid .row   .col-3 .card{
+ 
+ 
+     flex: 0 0 auto;
+     white-space: nowrap;
+     margin: 10px;
+     padding: 10px;
+     transition: transform 2s ease-in;
+     /* max-width: 300px;
+     height: 400px; */
+
+    
+ } 
+ #filter .container-fluid .row  .card:hover{
+ 
+    transform: scale(1.1);
+   
+} 
+
+#filter .container-fluid .row  .card .card-block p{
+ 
+    display: block; 
+    width: 300px !important;
+    height: 100px !important;
+   
+} 
+
+
+ /* #filter .container-fluid .row .sc .card-deck-wrapper .card-deck  .card .card-block p{
+ 
+    text-align: center; 
+    overflow: auto;
+    max-width: 200px;
+}   */
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+#filter .container-fluid .row .COM{
+    position: relative;
+    width: 100%;
+    /* height: 450px; */
+}
+#filter .container-fluid .row .COM #com{
+
+    width: 100%;
+    /* height: 450px; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    z-index: -1;
+}
+#filter .container-fluid .row .COM #com #clip{
+
+    
+    
+    display: flex ; 
+    flex-wrap: nowrap ;
+
+    position: relative;
+
+    right: 0px;
+    transition: right 100ms ease-in;
+}
+
+#filter .container-fluid .row .COM #com #clip .col-md-4{
+
+
+    /* width: 300px !important; */
+    /* height: 450px !important; */
+
+   
+    
+    flex: 0 0 auto;
+    white-space: nowrap;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    transition: right 100ms ease-in;
+
+}
+
+
+/*
+
+    pre and next button
+
+*/
+#filter .container-fluid .row .COM #com  #pre{
+
+
+    position: absolute;
+    left: 1%;
+    top: 30%;
+    
+
+    height: 150px;
+    
+
+    z-index: 1;
+
+
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+
+    border: transparent;
+
+    opacity: 0.8;
+}
+#filter .container-fluid .row .COM #com  #next{
+
+
+    position: absolute;
+    right: 1%;
+    top: 30%;
+
+    height: 150px;
+
+    z-index: 1;
+
+
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+
+    border: transparent;
+
+    opacity: 0.8;
+
+}
+
+/*
+
+    pc android other buttons
+
+*/
+
+#filter .container-fluid .justify-content-center button{
+
+    background-color: white;
+    color: tomato;
+    border: tomato 2px solid;
+    font-weight: bolder;
+}
+
+#filter .container-fluid .justify-content-center button:hover{
+
+    background-color: tomato;
+    color: white;
+    border: tomato 2px solid;
+}
+
+/* 
+
+.card 
+
+*/
+
+
+#filter .container-fluid .row .col-12 .COM #com #clip .col-md-4 .card{
+
+    
+}
+
+/* 
+
+.card-block 
+
+*/
+
+#filter .container-fluid .row .col-12 .COM #com #clip .col-md-4 .card .card-block{
+
+    color: tomato;
+    font-weight: bolder;
+    
+
+    /* background-color: tomato; */
+
+   
+}
+
+
+/* 
+
+.card-footer a
+
+*/
+
+
+#filter .container-fluid .row .col-12 .COM #com #clip .col-md-4 .card .card-block .card-footer a{
+
+    text-align: center;
+    width: 100% !important;
+    background-color: transparent;
+    border: 2px solid tomato;
+    font-weight: bolder;
+    color: tomato;
+   
+}
+#filter .container-fluid .row .col-12 .COM #com #clip .col-md-4 .card .card-block .card-footer a:hover{
+
+
+    background-color: tomato;
+    color: white;
+   
+}
+#filter .container-fluid .row .col-12 .COM #com #clip .col-md-4 .card .card-block .card-footer a:active{
+
+
+    background-color: tomato;
+    color: white;
+   
+}
+
